@@ -1,4 +1,4 @@
-sspring:
+spring:
   datasource:
     url: jdbc:postgresql://hopper.proxy.rlwy.net:19107/railway
     username: postgres
