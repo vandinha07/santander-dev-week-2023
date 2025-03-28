@@ -1,0 +1,11 @@
+sspring:
+  datasource:
+    url: jdbc:postgresql://hopper.proxy.rlwy.net:19107/railway
+    username: postgres
+    password: cjzhJQbyuzEOhNeTvDKYREkBeOJYKIpC
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
